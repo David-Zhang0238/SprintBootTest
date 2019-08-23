@@ -13,7 +13,7 @@ public class TestDefaultFile {
 				.properties(
 						"spring.config.location=classpath:/test-folder/my-config.properties")
 				.run(args);
-		// 输出变量
+		// 输出变量,哈哈
 		System.out.println(context.getEnvironment().getProperty("jdbc.user"));
 	}
 
