@@ -21,7 +21,7 @@ public class MyController {
 	public Person findPerson(@PathVariable("personId") Integer personId) {
 		Person p = new Person();
 		p.setId(personId);
-		p.setName("Crazyit");
+		p.setName("’≈≥…≥¨");
 		p.setAge(30);
 		return p;
 	}
