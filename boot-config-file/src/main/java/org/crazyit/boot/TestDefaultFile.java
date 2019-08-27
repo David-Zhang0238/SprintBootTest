@@ -11,7 +11,7 @@ public class TestDefaultFile {
 		ConfigurableApplicationContext context = new SpringApplicationBuilder(
 				TestDefaultFile.class)
 				.properties(
-						"spring.config.location=classpath:/test-folder/my-config.properties")
+						"spring.config.location=classpath:/test-folder/zcc/my-config.properties")
 				.run(args);
 		System.out.println(context.getEnvironment().getProperty("jdbc.user"));
 	}
